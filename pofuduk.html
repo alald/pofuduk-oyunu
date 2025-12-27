@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Pofuduk Oyunu</title>
+<style>
+body {
+  margin: 0;
+  background: #87ceeb;
+}
+canvas {
+  display: block;
+  margin: auto;
+  background: #e0f7ff;
+}
+</style>
+</head>
+<body>
+
+<canvas id="game" width="800" height="400"></canvas>
+
+<script>
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
+
+let x = 50;
+let y =
